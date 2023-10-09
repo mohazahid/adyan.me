@@ -17,7 +17,7 @@ export default function NavBar () {
     toggleBurger()
   }
     return (
-        <nav className='relative h-16 px-4 py-4 flex justify-start items-center'>
+        <nav className='relative h-16 px-4 py-4 flex justify-start items-center font-kenyanRg tracking-wide text-xl'>
              <section>
         <div className='lg:hidden md:hidden'  onClick={() => setBurgerOpen((prev) => !prev)}>
           <button className='navbar-burger flex items-center text-blue-600 absolute right-1 transform -translate-y-1/2 -translate-x-1/2'>
@@ -36,21 +36,21 @@ export default function NavBar () {
               <button onClick={() => handleScroll('about')}>About_</button>
             </li>
             <li className=' border-gray-400 my-8 font-primary'>
-              <button onClick={() => handleScroll('faq')}>FAQ_</button>
+              <button onClick={() => handleScroll('faq')}>Work_</button>
             </li>
             <li className=' border-gray-400 my-8 font-primary'>
-              <button onClick={() => handleScroll('register')}>Register_</button>
+              <button onClick={() => handleScroll('Contact')}>Contact_</button>
             </li>
           </ul>
         </div>
       </section>
             
       <ul className='hidden absolute top-1/2 right-1 transform -translate-y-1/2 -translate-x-12 mx-auto lg:flex md:flex items-center w-auto space-x-6 max-w-screen-xl'>
-        <li><button className='text-white font-primary text-base pr-6  hover:text-gray-500' onClick={() => handleScroll('home')}>Home_</button></li>
-        <li><button onClick={() => handleScroll('about')}  className='text-white font-primary text-base pr-6   hover:text-gray-500'>About_</button></li>
-        <li><button onClick={() => handleScroll('work')} className='text-white font-primary text-base pr-6   hover:text-gray-500'>FAQ_</button></li>
-        <li><button onClick={() => handleScroll('contact')} className='text-white font-primary  text-base rounded-lg hover:text-white'>Register_</button></li>
-        <li><button className="outline-white outline-1 outline p-2 outline-round rounded-md text-white hover:text-[#2f6b6b] hover:outline-[#2f6b6b] transition ease-in delay-10 "> Resume </button></li>
+        <li><button className='text-white font-primary  hover:text-gray-500' onClick={() => handleScroll('home')}>Home_</button></li>
+        <li><button onClick={() => handleScroll('about')}  className='text-white font-primary  hover:text-gray-500'>About_</button></li>
+        <li><button onClick={() => handleScroll('work')} className='text-xl text-white font-primary hover:text-gray-500'>Work_</button></li>
+        <li><button onClick={() => handleScroll('contact')} className='text-xl text-white font-primary  rounded-lg hover:text-gray-500'>Contact_</button></li>
+        <li><button className="text-xl outline-white outline-1 outline px-2 py-1 outline-round rounded-md text-white hover:text-[#2f6b6b] hover:outline-[#2f6b6b] transition ease-in delay-10 "> Resume </button></li>
       </ul>
       <style>{`
         .hideMenuNav {

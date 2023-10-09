@@ -2,3 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family:'LeagueSpartan-Bold';
+    src: url(./fonts/LeagueSpartan-Bold.otf) format('opentype');
+  }
+@font-face {
+  font-family: 'KenyanCoffeeRg-Regular';
+  src: url(./fonts/kenyan-coffee-rg.otf) format('opentype');
+}
+@font-face {
+  font-family: 'KenyanCoffeeRg-Bold';
+  src: url(./fonts/kenyan-coffee-bd.otf) format('opentype');
+}
+@font-face {
+  font-family: 'KenyanCoffeeRg-Italic';
+  src: url(./fonts/kenyan-coffee-rg-it.otf) format('opentype');
+}
+@font-face {
+  font-family: 'KenyanCoffeeRg-BoldItalic';
+  src: url(./fonts/kenyan-coffee-bd-it.otf) format('opentype');
+}
+@font-face {
+  font-family: 'steelfish-bg-regular';
+  src: url(./fonts/steelfish.rg-bold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'sf-theramin-regular';
+  src: url(./fonts/sf-theramin-gothic.regular.ttf) format('opentype');
+}
