@@ -1,5 +1,6 @@
 import React, {useState } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid'
+import { Link } from 'react-router-dom'
 
 
 export default function NavBar () {
@@ -41,16 +42,21 @@ export default function NavBar () {
             <li className=' border-gray-400 my-8 font-primary'>
               <button onClick={() => handleScroll('Contact')}>Contact_</button>
             </li>
+            <li> 
+              <Link to = {"https://drive.google.com/file/d/1_pC05FS22c9Q5isBu7RJW00rcbndCfEk/view?usp=sharing"} target="_blank" >
+                <button className="text-xl outline outline-1 outline px-2 py-1 outline-round rounded-md  hover:text-[#2f6b6b] hover:outline-[#2f6b6b] transition ease-in delay-10 "> Resume </button>
+              </Link>
+            </li>
           </ul>
         </div>
       </section>
             
       <ul className='hidden absolute top-1/2 right-1 transform -translate-y-1/2 -translate-x-12 mx-auto lg:flex md:flex items-center w-auto space-x-6 max-w-screen-xl'>
-        <li><button className='text-white font-primary  hover:text-gray-500' onClick={() => handleScroll('home')}>Home_</button></li>
-        <li><button onClick={() => handleScroll('about')}  className='text-white font-primary  hover:text-gray-500'>About_</button></li>
-        <li><button onClick={() => handleScroll('work')} className='text-xl text-white font-primary hover:text-gray-500'>Work_</button></li>
-        <li><button onClick={() => handleScroll('contact')} className='text-xl text-white font-primary  rounded-lg hover:text-gray-500'>Contact_</button></li>
-        <li><button className="text-xl outline-white outline-1 outline px-2 py-1 outline-round rounded-md text-white hover:text-[#2f6b6b] hover:outline-[#2f6b6b] transition ease-in delay-10 "> Resume </button></li>
+        <li><button className='text-white font-primary  hover:text-gray-500' onClick={() => handleScroll('home')}>Home</button></li>
+        <li><button onClick={() => handleScroll('about')}  className='text-white font-primary  hover:text-gray-500'>About</button></li>
+        <li><button onClick={() => handleScroll('work')} className='text-xl text-white font-primary hover:text-gray-500'>Work</button></li>
+        <li><button onClick={() => handleScroll('contact')} className='text-xl text-white font-primary  rounded-lg hover:text-gray-500'>Contact</button></li>
+        <li> <Link to = {"https://drive.google.com/file/d/1_pC05FS22c9Q5isBu7RJW00rcbndCfEk/view?usp=sharing"} target="_blank" ><button className="text-xl outline-white outline-1 outline px-2 py-1 outline-round rounded-md text-white hover:text-[#2f6b6b] hover:outline-[#2f6b6b] transition ease-in delay-10 "> Resume </button></Link></li>
       </ul>
       <style>{`
         .hideMenuNav {
