@@ -11,7 +11,7 @@ export default function HomePage() {
       <NavBar />
       <div className="flex flex-col content-center justify-center">
         <div className="text-white flex flex-col text-center font-sfth-rg text-[5rem] ">
-          Hi, I'm Mohammad
+          Hi, I'm Mohammad Zahid
         </div>
         <div className="h-10 flex flex-row content-center justify-center outline text-center">
           <div className="text-white outline"> Im a</div>
