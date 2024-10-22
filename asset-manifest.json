@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d8c95bc.css",
-    "main.js": "/static/js/main.1479e7c5.js",
+    "main.css": "/static/css/main.974b5c36.css",
+    "main.js": "/static/js/main.541cc3bd.js",
     "static/js/787.279bdad2.chunk.js": "/static/js/787.279bdad2.chunk.js",
     "static/media/kenyan-coffee-rg-it.otf": "/static/media/kenyan-coffee-rg-it.451d74807cccd4dac120.otf",
     "static/media/kenyan-coffee-bd-it.otf": "/static/media/kenyan-coffee-bd-it.1559870a1e3e274df2df.otf",
@@ -11,12 +11,12 @@
     "static/media/LeagueSpartan-Bold.otf": "/static/media/LeagueSpartan-Bold.caadcad8af387d419251.otf",
     "static/media/sf-theramin-gothic.regular.ttf": "/static/media/sf-theramin-gothic.regular.db4b5719132119aed8dd.ttf",
     "index.html": "/index.html",
-    "main.2d8c95bc.css.map": "/static/css/main.2d8c95bc.css.map",
-    "main.1479e7c5.js.map": "/static/js/main.1479e7c5.js.map",
+    "main.974b5c36.css.map": "/static/css/main.974b5c36.css.map",
+    "main.541cc3bd.js.map": "/static/js/main.541cc3bd.js.map",
     "787.279bdad2.chunk.js.map": "/static/js/787.279bdad2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d8c95bc.css",
-    "static/js/main.1479e7c5.js"
+    "static/css/main.974b5c36.css",
+    "static/js/main.541cc3bd.js"
   ]
 }
